@@ -1,7 +1,7 @@
 from socket import *
 import json
 
-serverName = '127.0.0.1'
+serverName = 'localhost'
 serverPort = 12000
 clientSocket  = socket(AF_INET,SOCK_STREAM)
 clientSocket.connect((serverName,serverPort))
